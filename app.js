@@ -83,5 +83,7 @@ let expenses = [
 
 //instantiating instance of class PersonAccount
 //passing array of objects of Income and Expense class
-let account1 = new PersonAccount(`Ali`, `Ahmed`, incomes, expenses);
-console.log(account1.displayInfo());
+function driverQ1() {
+  let account1 = new PersonAccount(`Ali`, `Ahmed`, incomes, expenses);
+  console.log(account1.displayInfo());
+}
