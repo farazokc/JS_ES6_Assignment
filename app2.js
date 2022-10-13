@@ -80,4 +80,5 @@ class Bus extends Automobile {
 function driverQ2() {
   let myCar = new Car(`Honda`, `White`, `Sedan`, 1800, 4, 150);
   myCar.displayInfo();
+  alert(`Open console window to check output`);
 }

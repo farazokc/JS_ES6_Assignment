@@ -86,4 +86,5 @@ let expenses = [
 function driverQ1() {
   let account1 = new PersonAccount(`Ali`, `Ahmed`, incomes, expenses);
   console.log(account1.displayInfo());
+  alert(`Open console window to check output`);
 }
